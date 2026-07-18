@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>File Upload</title>
+</head>
+<body>
+<h1>File Upload Application</h1>
+<form action="FileUploadServlet" method="post" enctype="multipart/form-data">
+Select file to upload: <input type="file" name="file" required>
+<br><br>
+<input type="submit" value="Upload File">
+</form>
+<h2>Download Links</h2>
+<!-- Link to download files, ensure the path is correct -->
+<a href="FileDownloadServlet?filename=Enterprise JAVA Practical.pdf">Download the uploaded
+file</a><br><br><br><br>
+</body>
+</html>
